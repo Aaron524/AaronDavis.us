@@ -22,7 +22,6 @@ body {
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position:center center;
-
 }
 
 .navbar {
@@ -38,6 +37,10 @@ body {
 	width:70%;
 	border-radius: 50%;
 	margin:10px 15%;
+}
+
+.overview img:hover {
+	box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
 }
 
 													/** styling for blog page**/
@@ -58,8 +61,21 @@ body {
 	margin-bottom: 2%;
 }
 
+.blogintroimg:hover {
+	box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
+}
+
 .subscribe{
 	margin-top: 30px;
+}
+
+.post {
+	min-height: 525px;
+	line-height:1.7 !important;
+}
+
+.lead {
+	margin-top: 2%;
 }
 
 													/**single post page styling**/
