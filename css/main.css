@@ -31,6 +31,8 @@ body {
    	width: 100%;
    	background-color: #b3f0ff;
 }**/
+
+
 .navbar {
 	padding:44px;
 }
@@ -52,6 +54,12 @@ body {
 
 .overview img:hover {
 	box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
+}
+
+.subscribePage img {
+	display:block;
+	width:70%;
+	margin:5% 15%;
 }
 
 													/** styling for blog page**/
