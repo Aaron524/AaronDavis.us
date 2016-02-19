@@ -56,10 +56,12 @@ body {
 	box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
 }
 
+
 .subscribePage img {
-	display:block;
-	width:70%;
-	margin:5% 15%;
+	width:80%;
+	margin:5% 5%;
+	max-height: 500px;
+	max-width: 500px;
 }
 
 													/** styling for blog page**/
