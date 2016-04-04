@@ -1,8 +1,6 @@
-var x = 5;         // assign the value 5 to x
-var y = 2;         // assign the value 2 to y
-var z = x + y;     // assign the value 7 to z (x + y)
-
-console.log(x+2)
-x=5+10
-
-console.log(x+10)
+function count_rabbits() {
+    for(var i=1; i<=3; i++) {
+        // operator + concatenates strings
+        alert("Rabbit "+i+" out of the hat!")
+    }
+}

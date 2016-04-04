@@ -11,26 +11,30 @@ p {
 
 body {
 	background-color:#F9F9F9;
-	color:#F6F6F6
+	color:#F6F6F6;
 	height: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
+/**.landing {
+	height:100vh;
+}**/
 .sunset {
-	background: url(../images/sunset.jpg); 
+	background: url(../images/sunset.jpg);
+	/**background-color: #3393D0;**/
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position:center center;
 }
 
-/**.base {
-	position: absolute;
+.base {
+	position: fixed;
    	bottom: 0;
    	min-height: 25px;
    	width: 100%;
    	background-color: #b3f0ff;
-}**/
+}
 
 
 .navbar {
@@ -56,7 +60,9 @@ body {
 	box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
 }
 
-
+.adventures {
+	margin-bottom: 120px;
+}
 .subscribePage img {
 	width:80%;
 	margin:5% 5%;
