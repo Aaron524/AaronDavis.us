@@ -20,8 +20,8 @@ body {
 	height:100vh;
 }**/
 .sunset {
-	background: url(../images/sunset.jpg);
-	/**background-color: #3393D0;**/
+	/**background: url(../images/sunset.jpg);**/
+	background-color: #3393D0;
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position:center center;
