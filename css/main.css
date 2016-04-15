@@ -16,9 +16,9 @@ body {
 	background-attachment: fixed;
 }
 
-/**.landing {
+.landing {
 	height:100vh;
-}**/
+}
 .sunset {
 	/**background: url(../images/sunset.jpg);**/
 	background-color: #3393D0;
@@ -27,41 +27,24 @@ body {
 	background-position:center center;
 }
 
-.base {
+/**.base {
 	position: fixed;
    	bottom: 0;
    	min-height: 25px;
    	width: 100%;
    	background-color: #b3f0ff;
-}
+}**/
 
-
-.navbar {
-	padding:44px;
-}
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand  {
 	color:white;
 }
 
-.overview {
+/**.overview {
 	margin-bottom: 100px;
-}
+}**/
 
-.overview img {
-	display:block;
-	width:70%;
-	border-radius: 50%;
-	margin:10px 15%;
-}
 
-.overview img:hover {
-	box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
-}
-
-.adventures {
-	margin-bottom: 120px;
-}
 .subscribePage img {
 	width:80%;
 	margin:5% 5%;
@@ -76,6 +59,34 @@ body {
     left:45px;
     position: absolute;
     max-width: 95%;
+}
+
+.motivationalmonday {
+	background: url(../images/motivational_monday.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;	
+	min-height: 300px;
+	margin-bottom: 10px;
+
+}
+
+.adventures {
+	background: url(../images/skydiving_adventures.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;	
+	min-height: 30%;
+	margin-bottom: 10px;
+
+}
+
+.blog {
+	background: url(../images/thoughts_and_ideas.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;	
+	
 }
 
 
