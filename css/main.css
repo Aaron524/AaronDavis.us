@@ -42,11 +42,19 @@ body {
 }
 
 .bottomsection {
-	background: linear-gradient(#0055ff, #001a4d);
+	background-color:#001a4d;	
 	position: fixed;
 	bottom:0;
 	left: 0;
 	width: 100%;
+}
+
+.motivationalArchive, .contact {
+	border: 2px solid white;
+}
+
+.motivationalArchive h3, .contact h3 {
+	color:white;
 }
 
 
