@@ -1,0 +1,170 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a, label {
+    font-family: "georgia", helvetica, sans-serif;
+}
+
+img {
+	border-radius: 1%;
+}
+p {
+	font-size: 20px;
+}
+
+body {
+	background-color:#F9F9F9;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.landing {
+	height:100vh;
+}
+.sunset {
+	/**background: url(../images/sunset.jpg);**/
+	background-color: #3393D0;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;
+}
+
+/**.base {
+	position: fixed;
+   	bottom: 0;
+   	min-height: 25px;
+   	width: 100%;
+   	background-color: #b3f0ff;
+}**/
+
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand  {
+	color:white;
+}
+
+/**.overview {
+	margin-bottom: 100px;
+}**/
+
+
+.subscribePage img {
+	width:80%;
+	margin:5% 5%;
+	max-height: 500px;
+	max-width: 500px;
+}
+
+													/** styling for blog page**/
+
+.blogintrocaption {
+    top:0;
+    left:45px;
+    position: absolute;
+    max-width: 95%;
+}
+
+.motivationalmonday {
+	background: url(../images/motivational_monday.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;	
+	min-height: 300px;
+	margin-bottom: 10px;
+
+}
+
+.adventures {
+	background: url(../images/skydiving_adventures.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;	
+	min-height: 30%;
+	margin-bottom: 10px;
+
+}
+
+.blog {
+	background: url(../images/thoughts_and_ideas.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center center;	
+	
+}
+
+
+.blog h1, .blog h2, .blog h3, .blog p, .blog h1 {
+	padding:0 2%;
+}
+
+.blogposts img{
+	margin-bottom: 2%;
+}
+
+.blogintroimg:hover {
+	box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
+}
+
+.subscribe{
+	margin-top: 30px;
+}
+
+.post {
+	min-height: 525px;
+	line-height:1.7 !important;
+	margin-bottom: 1%
+}
+
+.lead {
+	margin-top: 2%;
+}
+
+													/**single post page styling**/
+
+.singlepagepost img {
+	margin-bottom: 3%;
+}
+
+.singlepagepost h2 {
+	color: #999;
+	padding: 1% 0 0 2%;
+}
+
+.singlepagepost p{
+	padding:1% 0;
+}
+
+.singlepagepost {
+	line-height: 30px;
+}
+
+.quote {
+	padding-left: 5%;
+}
+
+.quote p {
+	padding-top: 0;
+
+}
+
+.quote h2 {
+	padding-left: 0;
+
+}
+.cta {
+	padding: 3%;
+	background-color: #DDD;
+	border-radius: 3%;
+}
+
+.imagewrap {
+	margin-right: 1%;
+	padding-bottom: 0;
+}
+
+@media only screen and (max-width : 768px) {
+.navbar-default .navbar-nav > li > a, .navbar-nav .dropdown-menu  > li > a   {
+	color:black;
+	background-color: white;
+}
+
+}
+
+

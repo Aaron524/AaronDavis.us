@@ -19,10 +19,11 @@
 	<meta name="keywords" content="adventure, travel, adrenaline, success, business, interview, philosphy, entrepreneur, happiness, efficiency, education, growth hacking, starup , venture capital, design, social media guru , growth hacking  ">
 	</head>
 	<body>
-		<div class="navbar navbar-default navbar-static-top sunset"> <!-- try adding navbar-fixed-top-->
+		<div class="navbar navbar-default navbar-static-top"> <!-- try adding navbar-fixed-top-->
 			<div class='container'>
 				<div class='navbar-header'>
 					<a href="http://aarondavis.us/" class='navbar-brand'><h1>Aaron Davis</h1></a>
+				</div>		
 					<button type='button' class='navbar-toggle'
 							data-toggle='collapse'
 							data-target='.navbar-collapse'>
@@ -31,7 +32,7 @@
 						<span class='icon-bar'></span>
 						<span class='icon-bar'></span>
 					</button>
-				</div>	
+
 		  			<ul class='nav navbar-nav navbar-right collapse navbar-collapse links'>
 		    			<li>  <!--it's adding a class of "class='open' - if you want it to start as open at it to the li"-->
 		    				<a href="about.html" data-target='#'data-toggle='dropdown'><h2>About</h2> <span class='caret'></a> <!--"data-target='#'"   provides that if someone has no java script they still go to the hfref - if they have java it acts with dropdowns etc. -->
@@ -54,31 +55,28 @@
 					</ul>
 			</div>	
 		</div>
-		<div class="container landing">
-				<div class="overview text-center">	
-					<a href="motivationalmonday.html">
-						<div class="motivationalmonday col-md-12">
-							<h3>Motivational Mondays</h3>
+		<div class="container-fluid">
+				<div class="overview">	
+						
+						<div class="motivationalmonday col-md-offset-1 col-md-10">
+						<img class='img-responsive'src="./images/motivational_monday.jpg">	
+							<!--<button class='button'> <a href="motivationalmonday.html"> <h3>Motivational Mondays</h3></a>
+							</button>-->
 						</div>	
-					</a>
-					<a href="adventures.html">
-						<div class="adventures col-md-12">
-							<h3>Adventures</h3>
+						<div class="adventures col-md-6">
+						<img class='img-responsive'src="./images/skydiving_adventures.jpg">	
+							<!--<button class='button'> <a href="motivationalmonday.html"> <h3>Motivational Mondays</h3></a>
+							</button>-->
+						</div>					
+						<div class="adventures col-md-6">
+						<img class='img-responsive'src="./images/thoughts_and_ideas.jpg">	
+							<!--<button class='button'> <a href="motivationalmonday.html"> <h3>Motivational Mondays</h3></a>
+							</button>-->
 						</div>
-					</a>						
-					<a href="blog.html">
-						<div class="blog col-md-12">
-							<h3>Thoughts & Ideas</h3>
-						</div>	
-					</a>
 	
 				</div>	
 		</div>
-		<!--<div class="base text-center">
-			<a href='motivationalmonday.html'><h1>Motivational Monday</h1><h3>- Click for motivation</h3></a>
-   		</div>-->
-
-					<!--<input type="button" onclick="count_rabbits()" value="Count rabbits!"/>-->   		
+						<!--<input type="button" onclick="count_rabbits()" value="Count rabbits!"/>-->   		
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script type="text/javascript" src="js/test.js"></script>
 		<script src ='js/bootstrap.min.js'></script>
