@@ -41,6 +41,14 @@ body {
 
 }
 
+.bottomsection {
+	background: linear-gradient(#0055ff, #001a4d);
+	position: fixed;
+	bottom:0;
+	left: 0;
+	width: 100%;
+}
+
 
 @media only screen and (max-width : 768px) {
 .navbar-default .navbar-nav > li > a, .navbar-nav .dropdown-menu  > li > a   {
