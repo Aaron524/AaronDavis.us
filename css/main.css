@@ -10,10 +10,13 @@ p {
 }
 
 body {
-	background-color:#F9F9F9;
-	height: 100%;
+	background: url(../images/motivational_monday.jpg);
+	background-size:cover;
 	background-repeat: no-repeat;
+	background-position:center center;	
+	height: 100%;
 	background-attachment: fixed;
+	min-height: 500px;		
 }
 
 .landing {
@@ -22,6 +25,7 @@ body {
 
 .navbar {
 	background-color: #3393D0;
+	padding-bottom: 10px;
 }
 
 .navbar-header {
@@ -32,46 +36,17 @@ body {
 	color:white;
 }
 
-
-.subscribePage img {
-	width:80%;
-	margin:5% 5%;
-	max-height: 500px;
-	max-width: 500px;
-}
-
-.motivationalmonday img {
-    position:relative;
-    display:inline-block;
-    text-align:center;
-}
-
-.button {
-    position:absolute;
-    top:2%;
-    right:50%;
-/**    width:100px;
-    height:30px;**/
-}
-
 .motivationalmonday {
-	margin-bottom: 10px;
-
-}
-
-.adventures {
-	margin: 0 10px 0 0;
-
-}
-
-.blog {
-	background: url(../images/thoughts_and_ideas.jpg);
+	background: url(../images/motivational_monday.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position:center center;	
-	
-}
+	height: 100%;
+	background-attachment: fixed;
+	min-height: 500px;		
+	margin-bottom: 10px;
 
+}
 
 
 @media only screen and (max-width : 768px) {
@@ -82,4 +57,9 @@ body {
 
 }
 
-
+.subscribePage img {
+	width:80%;
+	margin:5% 5%;
+	max-height: 500px;
+	max-width: 500px;
+}
