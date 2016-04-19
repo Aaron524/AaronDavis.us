@@ -27,10 +27,10 @@ body {
 	height:100vh;
 }
 
-.navbar {
+/**.navbar {
 	background-color: #3393D0;
 	padding-bottom: 10px;
-}
+}**/
 
 .navbar-header {
 	margin-bottom: 20px;
