@@ -1,5 +1,9 @@
-html, body, h1, h2, h3, h4, ul, ol, li, p, a, label {
+html body, h1, h2, h3, h4, ul, ol, li, p, a, label {
     font-family: "georgia", helvetica, sans-serif;
+}
+
+html,body {
+    height:100%;
 }
 
 img {
@@ -49,14 +53,14 @@ body {
 	width: 100%;
 }
 
-.motivationalArchive, .contact {
-	border: 2px solid white;
+.motivationalArchive, .contact, .blog, .adventures {
+	border: 1px solid white;
 }
 
-.motivationalArchive h3, .contact h3 {
+.motivationalArchive p, .contact p, .blog p, .adventures p{
 	color:white;
+	padding:10px 0;
 }
-
 
 @media only screen and (max-width : 768px) {
 .navbar-default .navbar-nav > li > a, .navbar-nav .dropdown-menu  > li > a   {
