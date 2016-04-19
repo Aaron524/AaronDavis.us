@@ -46,21 +46,27 @@ body {
 }
 
 .bottomsection {
-	background-color:#001a4d;	
+	background-color:#3393D0;	
 	position: fixed;
 	bottom:0;
 	left: 0;
 	width: 100%;
 }
 
-.motivationalArchive, .contact, .blog, .adventures {
-	border: 1px solid white;
+.bottomsection li {
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;	
+	border-bottom: 1px solid white;	
+
 }
 
-.motivationalArchive p, .contact p, .blog p, .adventures p{
-	color:white;
-	padding:10px 0;
+.bottomsection a {
+	color: white;
+	font-size: 1.5em;
 }
+
+
 
 @media only screen and (max-width : 768px) {
 .navbar-default .navbar-nav > li > a, .navbar-nav .dropdown-menu  > li > a   {
@@ -69,6 +75,21 @@ body {
 }
 
 }
+/**for text at bottom to be responsive**//
+@media only screen and (max-width : 775px) {
+.motivationalArchive p, .contact p, .blog p, .adventures p{
+	font-size: 1em;
+	}
+}
+
+@media only screen and (max-width : 420px) {
+.motivationalArchive p, .contact p, .blog p, .adventures p{
+	font-size: .5em;
+	}
+}
+
+
+/**for text at bottom to be responsive**//
 
 .subscribePage img {
 	width:80%;
