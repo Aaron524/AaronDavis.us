@@ -37,9 +37,14 @@ body {
 	margin-bottom: 20px;
 }
 
-.motivationalmonday {
-	margin-top: 50px;
-}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; 
+
+  display: flex;
+  align-items: center;
+ }
+
 
 #fieldName, #fieldEmail {
 	color: black;
