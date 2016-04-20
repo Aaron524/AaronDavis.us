@@ -1,5 +1,6 @@
 html body, h1, h2, h3, h4, ul, ol, li, p, a, label {
     font-family: "georgia", helvetica, sans-serif;
+    color: white;
 }
 
 html,body {
@@ -36,14 +37,14 @@ body {
 	margin-bottom: 20px;
 }
 
-.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand  {
-	color:white;
+.motivationalmonday {
+	margin-top: 50px;
 }
 
-.motivationalmonday > h1 {
-	color: white;
-
+#fieldName, #fieldEmail {
+	color: black;
 }
+
 
 .bottomsection {
 	background-color:#3393D0;	
@@ -62,7 +63,6 @@ body {
 }
 
 .bottomsection a {
-	color: white;
 	font-size: 1.5em;
 }
 
