@@ -50,6 +50,14 @@ body {
 	color: black;
 }
 
+.overview {
+	margin-bottom: 15%;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 25px;
+}
 
 .bottomsection {
 	background-color:#3393D0;	
@@ -82,16 +90,27 @@ body {
 }
 /**for text at bottom to be responsive**//
 @media only screen and (max-width : 775px) {
-.motivationalArchive p, .contact p, .blog p, .adventures p{
+.bottomsection a {
 	font-size: 1em;
 	}
 }
 
 @media only screen and (max-width : 420px) {
-.motivationalArchive p, .contact p, .blog p, .adventures p{
+.overview {
+	margin-bottom: 45%;
+}	
+}
+
+
+@media only screen and (max-width : 325px) {
+.bottomsection a {
 	font-size: .5em;
 	}
+.overview {
+	margin-bottom: 45%;
+}	
 }
+
 
 
 /**for text at bottom to be responsive**//
