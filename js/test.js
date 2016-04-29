@@ -41,3 +41,64 @@ function count_rabbits() {
         alert("Rabbit "+i+" out of the hat!")
     }
 }
+
+
+// filter through an array fucntion and example
+
+
+function filter(array, test) {
+  var passed = [];
+  for (var i = 0; i < array.length; i++) {
+    if (test(array[i]))
+      passed.push(array[i]);
+  }
+  return passed;
+}
+
+console.log(filter(ancestry, function(person) {
+  return person.born > 1900 && person.born < 1925;
+}));
+
+
+//standard filter method 
+console.log(ancestry.filter(function(person) {
+  return person.father == "Carel Haverbeke";
+}));
+// → [{name: "Carolus Haverbeke", …}]
+
+
+// filter through an array fucntion and example
+
+
+var arrays = [[1, 2, 3], [4, 5], [6]];
+
+function flatten(arr) {
+    return arr.reduce(function(current, next) {
+        return current.concat(next);
+    });
+}
+
+console.log(flatten(arrays));
+
+// button click example
+
+$(document).ready(function() {
+  $('button').on('click', function() {
+    var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
+    $(this).closest('.tour').append(message);
+    $(this).remove();
+  });
+});
+
+// button click example
+
+
+// higher level class click and remove a lower element within higher level
+$(document).ready(function() {
+  $('.tour').on('click', function() {
+    var message = $('<span>Call 1-555-jquery-air to book this tour</span>');
+    $(this).append(message);
+    $(this).find('button').remove();
+  });
+});
+// higher level class click and remove a lower element within higher level
