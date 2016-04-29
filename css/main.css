@@ -24,6 +24,11 @@ body {
 	min-height: 500px;		
 }
 
+.navbar-header img {
+	max-height: 80px;
+}
+
+
 .landing {
 	height:100vh;
 }
@@ -45,6 +50,10 @@ body {
   align-items: center;
  }
 
+.testimonial {
+	margin-right: 5%;
+	margin-top: 5%;
+}
 
 #fieldName, #fieldEmail {
 	color: black;
@@ -99,10 +108,14 @@ body {
 .overview {
 	margin-bottom: 45%;
 }	
+
+.testimonial {
+	visibility: hidden;
+}
 }
 
 
-@media only screen and (max-width : 325px) {
+@media only screen and (max-width : 380px) {
 .bottomsection a {
 	font-size: .5em;
 	}
