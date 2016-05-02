@@ -29,7 +29,7 @@ body {
 }
 
 
-.landing {
+body {
 	height:100vh;
 }
 
@@ -54,7 +54,6 @@ body {
 }
 
 .overview {
-	margin-bottom: 15%;
 	margin-top: 5%;
 }
 
@@ -66,10 +65,10 @@ body {
 
 .bottomsection {
 	background-color:#3393D0;	
-	position: fixed;
-	bottom:0;
+/**	position: fixed;**/
+/**	bottom:0;
 	left: 0;
-	width: 100%;
+	width: 100%;**/
 }
 
 .bottomsection li {
@@ -84,42 +83,28 @@ body {
 	font-size: 1.5em;
 }
 
-
-
-@media only screen and (max-width : 768px) {
-.navbar-default .navbar-nav > li > a, .navbar-nav .dropdown-menu  > li > a   {
-	color:black;
-	background-color: white;
+.navbar-default .navbar-nav > li > a {
+	color: white;
 }
 
+.navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #3393D0;
 }
-/**for text at bottom to be responsive**//
-@media only screen and (max-width : 775px) {
-.bottomsection a {
-	font-size: 1em;
-	}
+
+.navbar-toggle {											/**to center button toggle**/
+	float: none;
+	margin-right: 0px;
 }
+
 
 @media only screen and (max-width : 420px) {
-.overview {
-	margin-bottom: 45%;
-}	
+
+h1 {
+	font-size: 30px;
+}
 
 }
 
-
-@media only screen and (max-width : 380px) {
-.bottomsection a {
-	font-size: .5em;
-	}
-.overview {
-	margin-bottom: 45%;
-}	
-}
-
-
-
-/**for text at bottom to be responsive**//
 
 .subscribePage img {
 	width:80%;

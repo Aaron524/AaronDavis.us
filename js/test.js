@@ -1,3 +1,9 @@
+$("#div1").css({"padding-top": $("#anotherdiv").height() });
+
+
+
+
+
 var cows = 7;
 var chickens = 11;
 var targetFarm = cows + chickens;
