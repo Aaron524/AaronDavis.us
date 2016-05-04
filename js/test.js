@@ -108,3 +108,39 @@ $(document).ready(function() {
   });
 });
 // higher level class click and remove a lower element within higher level
+
+
+
+// selecting a value from the html (    <li class="usa tour" data-discount="299">  )
+
+$(document).ready(function() {
+  $('.tour').on('click', 'button', function() {
+    var tour = $(this).closest('.tour');
+    var discount = tour.data('discount');
+    var message = $('<span>Call 1-555-jquery-air for a $' + discount + ' discount.</span>');
+    tour.append(message);
+    $(this).remove();
+  });
+});
+
+
+// selecting a value from the html (    <li class="usa tour" data-discount="299">  )
+
+
+//adding a class or removing a class
+
+$(document).ready(function() {
+  $('#filters').on('click', '.on-sale', function() {
+    $('.tour').removeClass('highlight');
+    $('.tour').filter('.on-sale').addClass('highlight');
+  });
+
+  $('#filters').on('click', '.featured', function() {
+    $('.tour').removeClass('highlight');
+    $('.tour').filter('.featured').addClass('highlight');
+  });
+});
+
+//adding a class or removing a class
+
+

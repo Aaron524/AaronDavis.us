@@ -10,8 +10,22 @@ html,body {
 img {
 	border-radius: 1%;
 }
-p {
-	font-size: 20px;
+
+.quote h1 {
+	font-size: 5em;
+	text-indent: -0.4em;	
+	line-height: 1em;
+	letter-spacing: -3px;
+
+}
+
+.quote {
+	font-style: italic;	
+}
+
+.motivationalmonday{
+	margin-top: 15%;
+	margin-bottom: 2.5%;
 }
 
 body {
@@ -19,21 +33,18 @@ body {
 	background-size:cover;
 	background-repeat: no-repeat;
 	background-position:center center;	
-	height: 100%;
 	background-attachment: fixed;
-	min-height: 500px;		
+	min-height: 500px;	
 }
 
-.logo img {
-	max-height: 80px;
+.overview {
+	margin-top: 5%;
 }
 
-
-body {
-	height:100vh;
+.overview p {
+	font-size: 1.2em;
+	margin-top: 2.5%;
 }
-
-
 
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -43,45 +54,33 @@ body {
   align-items: center;
  }
 
-.testimonial {
-	margin-right: 5%;
-	margin-top: 5%;
-	margin-bottom: 2%
-}
+ #mce-EMAIL{
+ 	color: black;
+ 	margin-left: 20px;
+ }
 
-#fieldName, #fieldEmail {
-	color: black;
-}
-
-.overview {
-	margin-top: 5%;
-}
-
-
-.quote {
-    font-style: italic;
-    margin-bottom: 25px;
-}
 
 .bottomsection {
 	background-color:#3393D0;	
-/**	position: fixed;**/
-/**	bottom:0;
-	left: 0;
-	width: 100%;**/
 }
 
 .bottomsection li {
 	display: inline-block;
 	padding: 10px;
 	margin: 10px;	
-	border-bottom: 1px solid white;	
-
 }
 
 .bottomsection a {
 	font-size: 1.5em;
 }
+
+.subscribebtn {
+	width: 70%;
+	margin-top: 2.5%;
+	font-size: 1.5em;
+    font-weight: bold;
+}
+
 
 .navbar-default .navbar-nav > li > a {
 	color: white;
@@ -97,14 +96,47 @@ body {
 }
 
 
-@media only screen and (max-width : 420px) {
+@media only screen and (max-width : 770px) {
 
-h1 {
-	font-size: 30px;
+.subscribebtn {
+	width: 100%;
 }
+}
+
+@media only screen and (max-width : 420px) {
 
 .overview {
 	margin-bottom: 20%;
+}
+
+.subscribebtn {
+	width: 100%;
+}
+
+.quote h1 {
+	font-size: 4.5em;
+
+}
+
+}
+
+@media only screen and (max-width : 380px) {
+
+.quote h1 {
+	font-size: 4em;
+
+}
+
+
+@media only screen and (max-width : 325px) {
+
+ #mce-EMAIL{
+ 	margin-left: 0px;
+ }
+
+ .quote h1 {
+	font-size: 3em;
+
 }
 
 }
