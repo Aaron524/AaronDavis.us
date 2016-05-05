@@ -11,6 +11,11 @@ img {
 	border-radius: 1%;
 }
 
+.nav img {
+	border-radius: 0%;
+}
+
+
 .quote h1 {
 	font-size: 5em;
 	text-indent: -0.4em;	
@@ -28,7 +33,7 @@ img {
 	margin-bottom: 2.5%;
 }
 
-body {
+.homepage{
 	background: url(../images/motivational_monday.jpg);
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -60,17 +65,21 @@ body {
  }
 
 
-.bottomsection {
-	background-color:#3393D0;	
+.head {
+	background: url(../images/blue_skies.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	/**background-position:center center;	
+	background-attachment: fixed;**/
 }
 
-.bottomsection li {
+.head li {
 	display: inline-block;
 	padding: 10px;
 	margin: 10px;	
 }
 
-.bottomsection a {
+.head a {
 	font-size: 1.5em;
 }
 
@@ -79,6 +88,7 @@ body {
 	margin-top: 2.5%;
 	font-size: 1.5em;
     font-weight: bold;
+    min-width: 250px;
 }
 
 
@@ -87,7 +97,7 @@ body {
 }
 
 .navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color: #3393D0;
+border-style: none;
 }
 
 .navbar-toggle {											/**to center button toggle**/
