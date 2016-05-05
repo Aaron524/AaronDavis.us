@@ -144,3 +144,20 @@ $(document).ready(function() {
 //adding a class or removing a class
 
 
+//counting how many elements are in a DOM with JS and JQuery
+$(document).ready(function() {
+  alter($('button').length);
+  
+});
+//counting how many elements are in a DOM with JS and JQuery
+
+// sliding elements into and out of view based on button click
+
+$(document).ready(function() {
+  $('#tour').on('click', 'button', function() {
+    $(this).closest('.tour').find('.photos').slideToggle();
+    
+  });
+});
+
+//// sliding elements into and out of view based on button click

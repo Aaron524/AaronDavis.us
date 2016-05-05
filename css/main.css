@@ -10,12 +10,34 @@ p,
 a,
 label {
     font-family: "georgia", helvetica, sans-serif;
+}
+
+    .homepage html, .homepage body,
+.homepage h1,
+.homepage h2,
+.homepage h3,
+.homepage h4,
+.homepage ul,
+.homepage ol,
+.homepage li,
+.homepage p,
+.homepage a,
+.homepage label {
     color: white;
 }
+
 
 html,
 body {
     height: 100%;
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */                  /*not currently being used*/
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 img {
@@ -26,20 +48,36 @@ img {
     border-radius: 0%;
 }
 
-.quote h1 {
-    font-size: 5em;
-    text-indent: -0.4em;
-    line-height: 1em;
-    letter-spacing: -3px;
+.navbar-default .navbar-nav > li > a {
+    color: white;
 }
 
-.quote {
-    font-style: italic;
+.navbar-default,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-style: none;
 }
 
-.motivationalmonday {
-    margin-top: 15%;
-    margin-bottom: 2.5%;
+.navbar-toggle {
+    /**to center button toggle**/
+    float: none;
+    margin-right: 0px;
+}
+
+.head {
+    background: url(../images/blue_skies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head li {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.head a {
+    font-size: 1.5em;
 }
 
 .homepage {
@@ -60,36 +98,29 @@ img {
     margin-top: 2.5%;
 }
 
-.vertical-center {
-    min-height: 100%;
-    /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+.homequote {
+    font-style: italic;
 }
+
+.homequote h1 {
+    font-size: 5em;
+    text-indent: -0.4em;
+    line-height: 1em;
+    letter-spacing: -3px;
+}
+
+
+.motivationalmonday {
+    margin-top: 15%;
+    margin-bottom: 2.5%;
+}
+
 
 #mce-EMAIL {
     color: black;
     margin-left: 20px;
 }
 
-.head {
-    background: url(../images/blue_skies.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /**background-position:center center;	
-	background-attachment: fixed;**/
-}
-
-.head li {
-    display: inline-block;
-    padding: 10px;
-    margin: 10px;
-}
-
-.head a {
-    font-size: 1.5em;
-}
 
 .subscribebtn {
     width: 70%;
@@ -99,21 +130,6 @@ img {
     min-width: 250px;
 }
 
-.navbar-default .navbar-nav > li > a {
-    color: white;
-}
-
-.navbar-default,
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-    border-style: none;
-}
-
-.navbar-toggle {
-    /**to center button toggle**/
-    float: none;
-    margin-right: 0px;
-}
 
 @media only screen and (max-width: 770px) {
     .subscribebtn {
@@ -128,20 +144,20 @@ img {
     .subscribebtn {
         width: 100%;
     }
-    .quote h1 {
+    .homequote h1 {
         font-size: 4.5em;
     }
 }
 
 @media only screen and (max-width: 380px) {
-    .quote h1 {
+    .homequote h1 {
         font-size: 4em;
     }
     @media only screen and (max-width: 325px) {
         #mce-EMAIL {
             margin-left: 0px;
         }
-        .quote h1 {
+        .homequote h1 {
             font-size: 3em;
         }
     }
@@ -151,4 +167,87 @@ img {
         max-height: 500px;
         max-width: 500px;
     }
+}
+
+/** styling for blog page**/
+
+.blogintrocaption {
+    top:0;
+    left:45px;
+    position: absolute;
+    max-width: 95%;
+}
+
+.blog h1, .blog h2, .blog h3, .blog p, .blog h1 {
+    padding:0 2%;
+    color: black;
+}
+
+.blogposts img{
+    margin-bottom: 2%;
+}
+
+.blogintroimg:hover {
+    box-shadow: 0 .5em 2em rgba(0,0,0,0.4);
+}
+
+.subscribe{
+    margin-top: 30px;
+}
+
+.post {
+    min-height: 525px;
+    line-height:1.7 !important;
+    margin-bottom: 1%
+}
+
+.lead {
+    margin-top: 2%;
+}
+
+.subscribeblog {
+    color: black;
+}
+
+                                                    /**single post page styling**/
+
+.singlepagepost img {
+    margin-bottom: 3%;
+}
+
+.singlepagepost h2 {
+    color: #999;
+    padding: 1% 0 0 2%;
+}
+
+.singlepagepost p{
+    padding:1% 0;
+}
+
+.singlepagepost {
+    line-height: 30px;
+}
+
+.quote {
+    padding-left: 5%;
+}
+
+.quote p {
+    padding-top: 0;
+
+}
+
+.quote h2 {
+    padding-left: 0;
+
+}
+.cta {
+    padding: 3%;
+    background-color: #DDD;
+    border-radius: 3%;
+}
+
+.imagewrap {
+    margin-right: 1%;
+    padding-bottom: 0;
 }
