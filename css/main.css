@@ -1,160 +1,154 @@
-html body, h1, h2, h3, h4, ul, ol, li, p, a, label {
+    html body,
+h1,
+h2,
+h3,
+h4,
+ul,
+ol,
+li,
+p,
+a,
+label {
     font-family: "georgia", helvetica, sans-serif;
     color: white;
 }
 
-html,body {
-    height:100%;
+html,
+body {
+    height: 100%;
 }
 
 img {
-	border-radius: 1%;
+    border-radius: 1%;
 }
 
 .nav img {
-	border-radius: 0%;
+    border-radius: 0%;
 }
 
-
 .quote h1 {
-	font-size: 5em;
-	text-indent: -0.4em;	
-	line-height: 1em;
-	letter-spacing: -3px;
-
+    font-size: 5em;
+    text-indent: -0.4em;
+    line-height: 1em;
+    letter-spacing: -3px;
 }
 
 .quote {
-	font-style: italic;	
+    font-style: italic;
 }
 
-.motivationalmonday{
-	margin-top: 15%;
-	margin-bottom: 2.5%;
+.motivationalmonday {
+    margin-top: 15%;
+    margin-bottom: 2.5%;
 }
 
-.homepage{
-	background: url(../images/motivational_monday.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
-	background-position:center center;	
-	background-attachment: fixed;
-	min-height: 500px;	
+.homepage {
+    background: url(../images/motivational_monday.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 500px;
 }
 
 .overview {
-	margin-top: 5%;
+    margin-top: 5%;
 }
 
 .overview p {
-	font-size: 1.2em;
-	margin-top: 2.5%;
+    font-size: 1.2em;
+    margin-top: 2.5%;
 }
 
 .vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; 
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
 
-  display: flex;
-  align-items: center;
- }
-
- #mce-EMAIL{
- 	color: black;
- 	margin-left: 20px;
- }
-
+#mce-EMAIL {
+    color: black;
+    margin-left: 20px;
+}
 
 .head {
-	background: url(../images/blue_skies.jpg);
-	background-size:cover;
-	background-repeat: no-repeat;
-	/**background-position:center center;	
+    background: url(../images/blue_skies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /**background-position:center center;	
 	background-attachment: fixed;**/
 }
 
 .head li {
-	display: inline-block;
-	padding: 10px;
-	margin: 10px;	
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
 }
 
 .head a {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
 
 .subscribebtn {
-	width: 70%;
-	margin-top: 2.5%;
-	font-size: 1.5em;
+    width: 70%;
+    margin-top: 2.5%;
+    font-size: 1.5em;
     font-weight: bold;
     min-width: 250px;
 }
 
-
 .navbar-default .navbar-nav > li > a {
-	color: white;
+    color: white;
 }
 
-.navbar-default, .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-border-style: none;
+.navbar-default,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-style: none;
 }
 
-.navbar-toggle {											/**to center button toggle**/
-	float: none;
-	margin-right: 0px;
+.navbar-toggle {
+    /**to center button toggle**/
+    float: none;
+    margin-right: 0px;
 }
 
-
-@media only screen and (max-width : 770px) {
-
-.subscribebtn {
-	width: 100%;
-}
+@media only screen and (max-width: 770px) {
+    .subscribebtn {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width : 420px) {
-
-.overview {
-	margin-bottom: 20%;
+@media only screen and (max-width: 420px) {
+    .overview {
+        margin-bottom: 20%;
+    }
+    .subscribebtn {
+        width: 100%;
+    }
+    .quote h1 {
+        font-size: 4.5em;
+    }
 }
 
-.subscribebtn {
-	width: 100%;
-}
-
-.quote h1 {
-	font-size: 4.5em;
-
-}
-
-}
-
-@media only screen and (max-width : 380px) {
-
-.quote h1 {
-	font-size: 4em;
-
-}
-
-
-@media only screen and (max-width : 325px) {
-
- #mce-EMAIL{
- 	margin-left: 0px;
- }
-
- .quote h1 {
-	font-size: 3em;
-
-}
-
-}
-
-
-.subscribePage img {
-	width:80%;
-	margin:5% 5%;
-	max-height: 500px;
-	max-width: 500px;
+@media only screen and (max-width: 380px) {
+    .quote h1 {
+        font-size: 4em;
+    }
+    @media only screen and (max-width: 325px) {
+        #mce-EMAIL {
+            margin-left: 0px;
+        }
+        .quote h1 {
+            font-size: 3em;
+        }
+    }
+    .subscribePage img {
+        width: 80%;
+        margin: 5% 5%;
+        max-height: 500px;
+        max-width: 500px;
+    }
 }
