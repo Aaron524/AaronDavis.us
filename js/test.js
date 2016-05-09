@@ -161,3 +161,45 @@ $(document).ready(function() {
 });
 
 //// sliding elements into and out of view based on button click
+
+
+
+
+
+// setting it up so that a span shows on mouseenter and goes away on mouse leave
+
+$(document).ready(function() {
+  $('#tour').on('click', 'button', function() {
+    $('.photos').slideToggle();
+  });
+  $('.photos').on('mouseenter', 'li', function() {
+    $(this).find('span').slideToggle();
+  });
+  $('.photos').on('mouseleave', 'li', function() {
+    $(this).find('span').slideToggle();
+  });
+});
+
+
+
+    /// refactored to call function instead of repeate code with show photos
+
+$(document).ready(function() {
+  $('#tour').on('click', 'button', function() {
+    $('.photos').slideToggle();
+  });
+
+  function showPhotos () {
+    $(this).find('span').slideToggle();    
+  }
+
+  $('.photos').on('mouseenter', 'li', showPhotos);
+  $('.photos').on('mouseleave', 'li', showPhotos);
+});
+
+    /// refactored to call function instead of repeate code with show photos
+
+
+
+// setting it up so that a span shows on mouseenter and goes away on mouse leave
+
