@@ -231,7 +231,8 @@ $(document).ready(function() {
 
 //display photo on link click
 
-//<div id="all-tours" class="links">
+// html
+<div id="all-tours" class="links">
   <h1>Guided Tours</h1>
   <ul>
     <li class="tour usa" data-discount="199">
@@ -244,7 +245,7 @@ $(document).ready(function() {
           <img src="/assets/photos/paris1.jpg">
           <span>Arc de Triomphe</span>
         </li>
-
+// html
 
 $(document).ready(function() {
   $('.see-photos').on('click', function(event) {
@@ -264,3 +265,44 @@ $(document).ready(function() {
   //preventDefault prevents the default action the browser makes on that event.
 
 //display photo on link click 
+
+
+
+//passing css object in based on event handler
+
+$(document).ready(function() {
+  $('.tour').on('mouseenter', function() {
+    $(this).css({'background-color': '#252b30', 'font-weight': 'bold'});
+    $(this).closest('.tour').find('.photos').show();
+  });
+});
+
+
+//passing css object in based on event handler
+
+
+
+//adding and removing a class based on event
+
+$(document).ready(function() {
+  $('.tour').on('mouseenter', function() {
+    $(this).addClass('highlight');
+  });
+  $('.tour').on('mouseleave', function() {
+    $(this).removeClass('highlight');
+  });
+});
+
+
+    // or
+
+
+$(document).ready(function() {
+  $('.tour').on('mouseenter', function() {
+    $(this).toggleClass('highlight');
+  });
+
+});
+
+
+//adding and removing a class based on event
