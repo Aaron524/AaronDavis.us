@@ -227,4 +227,40 @@ $(document).ready(function() {
 //change a when it's focused on
 
 
+ 
 
+//display photo on link click
+
+//<div id="all-tours" class="links">
+  <h1>Guided Tours</h1>
+  <ul>
+    <li class="tour usa" data-discount="199">
+      <h2>New York, New York</h2>
+      <span class="details">$1,899 for 7 nights</span>
+      <button class="book">Book Now</button>
+      <a href="#" class="see-photos">See Photos</a>
+      <ul class="photos">
+        <li>
+          <img src="/assets/photos/paris1.jpg">
+          <span>Arc de Triomphe</span>
+        </li>
+
+
+$(document).ready(function() {
+  $('.see-photos').on('click', function(event) {
+    event.stopPropagation();
+    event.preventDefault();
+    
+    $(this).closest('.tour').find('.photos').slideToggle();
+  });
+  $('.tour').on('click', function() {
+    alert('This event handler should not be called.');
+  });
+});
+
+
+  //stopPropagation stops the event from bubbling up the event chain.
+
+  //preventDefault prevents the default action the browser makes on that event.
+
+//display photo on link click 
