@@ -198,8 +198,33 @@ $(document).ready(function() {
 });
 
     /// refactored to call function instead of repeate code with show photos
-
-
-
 // setting it up so that a span shows on mouseenter and goes away on mouse leave
+
+
+
+//controling text based on input field
+
+$(document).ready(function() {
+  $('#nights').on('keyup', function() {
+    var nights = +$(this).val();  
+    var price = +$(this).closest('.tour').data('daily-price');
+    
+    $('#nights-count').text(nights);
+    $('#total').text(nights * price);
+  });
+});
+
+
+
+//controling text based on input field
+
+$(document).ready(function() {
+  $('#nights').on('focus', function() {
+    $(this).val(7);
+  });  
+});
+
+//change a when it's focused on
+
+
 
