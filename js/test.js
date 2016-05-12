@@ -324,3 +324,56 @@ $(document).ready(function() {
 });
 
 //animating examples
+
+
+//first AJAX eample of pulling photos from html to get them to come
+
+
+$(document).ready(function() {
+  $('#tour').on('click', 'button', function() {
+    $.ajax('/photos.html', {
+      success: function(response) {
+        $('.photos').html(response).fadeIn();
+      }
+    });
+  });
+});
+
+
+    //or with shorthand
+
+
+$(document).ready(function() {
+  $('#tour').on('click', 'button', function() {
+    $.get('/photos.html', function(response) {
+        $('.photos').html(response).fadeIn();
+    });
+  });
+});
+
+
+
+    ///and making it responsive or automatedd
+
+$(document).ready(function() {
+  $("#tour").on("click", "button", function() {
+    $.ajax('/photos.html', {
+      success: function(response) {
+        $('.photos').html(response).fadeIn();
+      },
+      data: { 'location': $('#tour').data('location')}
+    });
+  });
+});
+    
+
+//first AJAX eample of pulling photos from html to get them to come
+
+
+
+
+
+
+
+
+
