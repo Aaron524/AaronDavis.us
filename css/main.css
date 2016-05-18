@@ -188,6 +188,10 @@ img {
     color: black;
 }
 
+.continue {
+    margin-bottom: 5%;
+}
+
 .blogposts img{
     margin-bottom: 2%;
 }
@@ -201,7 +205,6 @@ img {
 }
 
 .post {
-    min-height: 525px;
     line-height:1.7 !important;
     margin-bottom: 2%
 }
