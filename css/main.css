@@ -135,6 +135,9 @@ img {
     min-width: 250px;
 }
 
+#mce-success-response, #mce-error-response {
+    color: #7b9ad2;
+}
 
 @media only screen and (max-width: 770px) {
     .subscribebtn {
