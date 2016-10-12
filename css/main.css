@@ -126,7 +126,9 @@ img {
     margin-left: 20px;
 }
 
-
+.socialProof b {
+    color: #659bf2;
+}
 .subscribebtn {
     width: 70%;
     margin-top: 2.5%;
@@ -136,7 +138,7 @@ img {
 }
 
 #mce-success-response, #mce-error-response {
-    color: #7b9ad2;
+    color: #3a85ff;
 }
 
 @media only screen and (max-width: 770px) {
