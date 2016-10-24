@@ -53,27 +53,73 @@
 				<br>	
 				<div class='content blogposts'>	
 					<article class='post'>
-					    <h2><a>There is an easy way and a HARD way to do this</a></h2>
-					 	<h3><b>Expandable hints below</b></h3>
+					    <h2><a>How Efficiently Can You Cross A Bridge</a></h2>
 					    <div>					
 					   		<div class='col-md-8'>
-                             <img src="./images/logic/2016/sum1to100.jpg" class="img-responsive blogintroimg">
+                             <img src="./images/logic/2016/guinea-pigs-crossing-a-bridge.png" class="img-responsive blogintroimg">
 					   		 	</a>
 					 		</div>
-							<p class="lead">What is the sum of integers from 1 to 100? Intergers are whole numbers only.</p>
+							<p class="lead">Four people need to cross a rickety bridge at night. Unfortunately, they have only one torch and the bridge is too dangerous to cross without one. The bridge is only strong enough to support two people at a time. Not all people take the same time to cross the bridge. Times for each person: 1 min, 2 mins, 7 mins and 10 mins. What is the shortest time needed for all four of them to cross the bridge?</p>
 					 	</div>	
                         <div class="btn-group" data-toggle="buttons-radio">
-                            <button id="btn-hint" data-target="hint1" class="btn btn btn-primary col-xs-12" type="button">Hint #1</button>
-                            <button id="btn-hint" data-target="hint2" class="btn btn btn-primary col-xs-12" type="button">Hint #2</button>
-                            <button id="btn-answer" data-target="Answer" class="btn btn btn-primary col-xs-12" type="button">Answer</button>
+                            <button id="btn-hint" data-target="hint1q2" class="btn btn btn-primary" type="button">Hint #1</button>
+                                <div class="hidden col-xs-12" id="hint1q2">
+                                    <p class="col-md-12"> Can you send the 2 slowest people together?</p>
+                                </div>   
                         </div>   
-                            <div class="hint1 col-xs-12" id="hint1">
-                                <p> What do the first and last number add up to?</p>
-                            </div>   
-                            <div class="hint2 col-xs-12" id="hint2">
-                                <p> What do the second and second to last number add up to? Do you sense a pattern</p>
-                            </div>   
-					</article>		
+                        <div class="btn-group" data-toggle="buttons-radio">
+                            <button id="btn-hint" data-target="hint2q2" class="btn btn btn-primary" type="button">Hint #2</button>
+                            <div class="hidden col-xs-12" id="hint2q2">
+                                <p> What if person 1 waits?</p>
+                            </div>    
+                        </div>  
+                        <div class="btn-group" data-toggle="buttons-radio">
+                            <button id="btn-answer" data-target="answerq2" class="btn btn btn-primary" type="button">Answer</button>
+                            <div class="hidden col-xs-12" id="answerq2">
+                                <p>  <b>17 minutes</b> </p>
+                            </div>    
+                        </div> 
+                       
+                        <div class="btn-group" data-toggle="buttons-radio">
+                            <button id="btn-explanation" data-target="explanationq2" class="btn btn btn-primary" type="button">Explanation</button>
+                            <div class="hidden col-xs-12" id="explanationq2">
+                                <p class="col-md-12"> Most people initially respond with the idea to use the fastest person as an usher, taking everyone across in 21 minutes. But that's just too easy and we can do better. It's best to have the two slowest people cross together. The only way to do this without having a slow person cross twice is to have someone waiting on the other side when they arrive <br>
+                                1 and 2 cross       <b>Time: 2 minutes</b> <br>
+                                2 comes back        <b>Time: 4 minutes</b> <br>
+                                7 and 10 go across  <b>Time: 14 minutes</b> <br>
+                                1 comes back        <b>Time: 15 minutes</b> <br>
+                                1 and 2 go across   <b>Time: 17 minutes</b></p>
+                            </div>    
+                        </div>                                                 
+					</article>	
+                    <article class='post'>
+                        <h2><a>There is an easy way and a HARD way to do this</a></h2>
+                        <div>                   
+                            <div class='col-md-8'>
+                             <img src="./images/logic/2016/sum1to100.jpg" class="img-responsive blogintroimg">
+                                </a>
+                            </div>
+                            <p class="lead">What is the sum of integers from 1 to 100? Integers are whole numbers only.</p>
+                        </div>  
+                        <div class="btn-group" data-toggle="buttons-radio">
+                            <button id="btn-hint" data-target="hint1q1" class="btn btn btn-primary" type="button">Hint #1</button>
+                                <div class="hidden col-xs-12" id="hint1q1">
+                                    <p> What do the first and last number add up to?</p>
+                                </div>   
+                        </div>   
+                        <div class="btn-group" data-toggle="buttons-radio">
+                            <button id="btn-hint" data-target="hint2q1" class="btn btn btn-primary" type="button">Hint #2</button>
+                            <div class="hidden col-xs-12" id="hint2q1">
+                                <p> What do the second and second to last number add up to? Do you sense a pattern?</p>
+                            </div>    
+                        </div>  
+                        <div class="btn-group" data-toggle="buttons-radio">
+                            <button id="btn-answer" data-target="answerq1" class="btn btn btn-primary" type="button">Answer</button>
+                            <div class="hidden col-xs-12" id="answerq1">
+                                <p> Sticking with the above pattern the third and third-to-last also add to 101. Continuing with this you will find 50 pairs of 101; which when summed equals <b>5050</b>. Ultimately you can turn this into an equation that can be applied to any similar question of 1 to n by doing  n/2 *(n+1) </p>
+                            </div>    
+                        </div>                          
+                    </article>                     	
 				</div>
 		</div>	
 </div>	
