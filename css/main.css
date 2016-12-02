@@ -116,7 +116,7 @@ img {
 
 
 .motivationalmonday {
-    margin-top: 15%;
+    margin-top: 8%;
     margin-bottom: 2.5%;
 }
 
@@ -215,6 +215,12 @@ img {
 .post {
     line-height:1.7 !important;
     margin-bottom: 2%
+}
+
+.highlights p {
+    line-height: 1.4;
+    margin-bottom: 1%;
+    font-size: 1.2em;
 }
 
 .lead {
