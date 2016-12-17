@@ -2,16 +2,16 @@
 <html>
 
 <head>
-    <link href='css/bootstrap.min.css' rel='stylesheet'>
-    <link href='css/bootstrap.css' rel='stylesheet'>
-    <link href='css/main.css' rel='stylesheet'>
-    <link rel="shortcut icon" href="favicon.ico">
+    <link href='/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='/css/bootstrap.css' rel='stylesheet'>
+    <link href='/css/main.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="js/test.js"></script>
-    <script src='js/bootstrap.min.js'></script>
+    <script type="text/javascript" src="/js/test.js"></script>
+    <script src='/js/bootstrap.min.js'></script>
     <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-    <script src='js/mine.js'></script>
+    <script src='/js/mine.js'></script>
     <script>
     $(function() {
         $("#header").load("/header.html");
@@ -36,8 +36,9 @@
     </script>
     <script src="//load.sumome.com/" data-sumo-site-id="2803121205d3f95e7dbd31bffb19a402768940e22aa3351cef0dad158ca917e1" async="async"></script>
     <script src="//load.sumome.com/" data-sumo-site-id="2803121205d3f95e7dbd31bffb19a402768940e22aa3351cef0dad158ca917e1" async="async"></script>
-    <meta name="description" content="Can You Answer This Week's Logic Interview Question?">
-    <meta name="keywords" content="adventure, travel, adrenaline, success, business, interview, philosphy, entrepreneur, happiness, efficiency, education, growth hacking, starup , venture capital, design, social media guru , growth hacking, motivational monday, motivational, ambition">
+     <title> Can You Answer This Week's Logic Interview Question?</title>       
+    <meta name="description" content="Give it a try and see if you can answer these logic questions. They will take some out of the box lateral thinking. Hints available when needed">
+    <meta name="keywords" content="Logic interview question, Logic questions, interview questions, Challenge questions, interviews, success, motivational, thinking out of the box, lateral thinking, game theory">
 </head>
 
 <body>
@@ -51,6 +52,78 @@
             <hr>
             <br>
             <div class='content blogposts'>
+             <article class='post'>
+                    <h2><a>How Much Will You Spend?</a></h2>
+                    <div>
+                        <div class='col-md-8'>
+                            <img src="./images/logic/2016/logic_interview_question_scale_heavier_ball.jpg" class="img-responsive blogintroimg">
+                            </a>
+                        </div>
+                        <p class="lead">You receive eight balls. They are identical except that one is heavier than the rest. You have access to a scale but it cost $10 per use. What is the least amount you can spend to find which ball is the heaviest and how?</p>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-hint" data-target="hint1q10" class="btn btn btn-primary" type="button">Hint #1</button>
+                        <div class="hidden col-xs-12" id="hint1q10">
+                            <p class="col-md-12"> Don't think in pairs.</p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-hint" data-target="hint2q10" class="btn btn btn-primary" type="button">Hint #2</button>
+                        <div class="hidden col-xs-12" id="hint2q10">
+                            <p> Groups of three?</p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-answer" data-target="answerq10" class="btn btn btn-primary" type="button">Answer</button>
+                        <div class="hidden col-xs-12" id="answerq10">
+                            <p> <b>$20</b> </p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-explanation" data-target="explanationq10" class="btn btn btn-primary" type="button">Explanation</button>
+                        <div class="hidden col-xs-12" id="explanationq10">
+                            <p class="col-md-12"> You must use the scale two times. You can separate the balls into three groups : three balls, three balls, and two balls. You start by weighing the sets of three against each other. If these are equal then they must be identical in weight. The heavy ball must be in the group of two. Put them on the scale and see which is heaviest. In the other scenario where one group of three is heavier than the other, you have identified which group the heavy ball is in. Choose two balls out of the group and use the scale. If one is heavier then that is your ball, if they are identical then the heavy ball must be the one not weighed.  </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <br>
+                </article>
+             <article class='post'>
+                    <h2><a>Can you Correct The Labels?</a></h2>
+                    <div>
+                        <div class='col-md-8'>
+                            <img src="./images/logic/2016/logic_interview_question_incorrect_labels.jpg" class="img-responsive blogintroimg">
+                            </a>
+                        </div>
+                        <p class="lead">There are three boxes, one contains only apples, one contains only oranges, and one contains both apples and oranges. The boxes have been incorrectly labeled such that no label identifies the actual contents of the box it labels. Opening just one box, and without looking in the box, you take out one piece of fruit. By looking at the fruit, how can you immediately label all of the boxes correctly? Which box should you choose from?</p>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-hint" data-target="hint1q9" class="btn btn btn-primary" type="button">Hint #1</button>
+                        <div class="hidden col-xs-12" id="hint1q9">
+                            <p class="col-md-12"> A key piece of information is that all of the boxes start mis-labeled</p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-hint" data-target="hint2q9" class="btn btn btn-primary" type="button">Hint #2</button>
+                        <div class="hidden col-xs-12" id="hint2q9">
+                            <p> Draw the boxes and the labels out, then try starting which each box</p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-answer" data-target="answerq9" class="btn btn btn-primary" type="button">Answer</button>
+                        <div class="hidden col-xs-12" id="answerq9">
+                            <p> <b>You must pick from the box labeled "Apples and Oranges" - then you will be able to determine the correct labeling. </b> </p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-explanation" data-target="explanationq9" class="btn btn btn-primary" type="button">Explanation</button>
+                        <div class="hidden col-xs-12" id="explanationq9">
+                            <p class="col-md-12"> You know the labels are incorrect so the box labeled "Apples and Oranges" must be either all apples or oranges. Suppose you remove an orange, the box must therefore be all oranges. You now have two labels left: "Apples" & "Apples and Oranges". Also remaining are two incorrectly labeled boxes: "Oranges" & "Apples". Since the "Apples" label can't go on the box already labeled "Apples" you know this one must be "Apples and Oranges". You now have one box and one label so by process of elimination you can correctly label the last box "Apples". </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <br>
+                </article>
                 <article class='post'>
                     <h2><a>How Long To Reach The Top?</a></h2>
                     <div>
@@ -81,7 +154,7 @@
                     <div class="btn-group" data-toggle="buttons-radio">
                         <button id="btn-explanation" data-target="explanationq8" class="btn btn btn-primary" type="button">Explanation</button>
                         <div class="hidden col-xs-12" id="explanationq8">
-                            <p class="col-md-12"> The quick answer is to establish that the snail climbs a net of 2 feet per hour, reaching the top in 5 hours. Yet, you can't forget about the max height of each hour. The snail's max height is always 1 foot higher than where he slides down to by the end of the hour.
+                            <p class="col-md-12"> The quick answer is to establish that the snail climbs a net of 2 feet per hour, reaching the top in 5 hours. Yet, you can't forget about the max height of each hour. The snail's max height is always 1 foot higher than where he slides down to by the end of the hour.</p>
                         </div>
                     </div>
                     <hr>
@@ -117,7 +190,7 @@
                     <div class="btn-group" data-toggle="buttons-radio">
                         <button id="btn-explanation" data-target="explanationq7" class="btn btn btn-primary" type="button">Explanation</button>
                         <div class="hidden col-xs-12" id="explanationq7">
-                            <p class="col-md-12"> The quick answer is generally 40 to the third power, 64,000. This number can be reduced greatly. If you input the first two numbers correctly you don't need the third, you only need to turn the dial through the numbers until the safe springs open. This brings the answer down to 40 to the second power, or 1,600.
+                            <p class="col-md-12"> The quick answer is generally 40 to the third power, 64,000. This number can be reduced greatly. If you input the first two numbers correctly you don't need the third, you only need to turn the dial through the numbers until the safe springs open. This brings the answer down to 40 to the second power, or 1,600.</p>
                         </div>
                     </div>
                     <hr>
