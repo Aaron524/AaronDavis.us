@@ -53,6 +53,10 @@ img {
     border-radius: 0%;
 }
 
+.navbar {
+    border-radius: 0px !important ;  
+}
+
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
@@ -70,15 +74,13 @@ img {
 }
 
 .head {
-    background: url(../images/blue_skies.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+  background: linear-gradient(to right, #3868c7 0%,#66b4fc 100%);
 }
 
 .head li {
     display: inline-block;
-    padding: 10px;
-    margin: 10px;
+    padding: 0px 10px;
+    margin: 5px 10px;
 }
 
 .head a {
