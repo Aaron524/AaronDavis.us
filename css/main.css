@@ -51,9 +51,13 @@ img {
 
 .topbanner {
     background-color:   #FFF;
-    padding-top: 10px;    
+    padding-top: 10px;   
+    float:none; 
 }
 
+.container {
+    margin-top: 10px;
+}
 .logo {
         
 
@@ -79,6 +83,10 @@ img {
     width:100%;
 }
 
+.bullet {
+    text-decoration: underline;
+    font-size:  1.24em;
+}
 nav {
     background-color:#1CA1E1;
 }
@@ -121,7 +129,7 @@ nav a:hover {
 @media (max-width: 991px) {
     .tagline{font-size: 1.5em;}
     .tagline {margin-top: 0px;}
-    .head a {font-size:   2.5em;}   
+    .head a {font-size:   1.5em;}   
 }
 
 
@@ -296,6 +304,10 @@ nav a:hover {
     margin-top: 2%;
 }
 
+.lead p {
+    padding: 0px;
+}
+
 .subscribeblog {
     color: black;
 }
@@ -311,9 +323,17 @@ nav a:hover {
     padding: 1% 0 0 2%;
 }
 
-.singlepagepost p{
-    padding:1% 0;
+.notes {
+        color: #b52c0f;
+    font-size: 20px;
+    font-weight: bolder;
 }
+
+.singlepagepost p{
+    padding:1.5% 0;
+}
+
+.purchase {font-size: 20px;}
 
 .singlepagepost {
     line-height: 30px;
