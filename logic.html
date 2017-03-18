@@ -55,7 +55,47 @@
             <br>
             <div class='content blogposts'>
 
-
+                <article class='post'>
+                    <h2><a>How quickly can you cross the bridge?</a></h2>
+                    <div>
+                        <div class='col-md-8'>
+                            <img src="./images/logic/2016/logic-interview-question-crossing-bridge.jpg" class="img-responsive blogintroimg">
+                            </a>
+                        </div>
+                        <p class="lead">Four people need to cross a rickety bridge at night. Unfortunately, they have only one torch and the bridge is too dangerous to cross without one. The bridge is only strong enough to support two people at a time. Not all people take the same time to cross the bridge. Times for each person: 1 min, 2 mins, 7 mins and 10 mins. What is the shortest time needed for all four of them to cross the bridge?</p>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-hint" data-target="hint1q2" class="btn btn btn-primary" type="button">Hint #1</button>
+                        <div class="hidden col-xs-12" id="hint1q2">
+                            <p class="col-md-12"> Can you send the 2 slowest people together?</p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-hint" data-target="hint2q2" class="btn btn btn-primary" type="button">Hint #2</button>
+                        <div class="hidden col-xs-12" id="hint2q2">
+                            <p> What if person 1 waits?</p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-answer" data-target="answerq2" class="btn btn btn-primary" type="button">Answer</button>
+                        <div class="hidden col-xs-12" id="answerq2">
+                            <p> <b>17 minutes</b> </p>
+                        </div>
+                    </div>
+                    <div class="btn-group" data-toggle="buttons-radio">
+                        <button id="btn-explanation" data-target="explanationq2" class="btn btn btn-primary" type="button">Explanation</button>
+                        <div class="hidden col-xs-12" id="explanationq2">
+                            <p class="col-md-12"> Most people initially respond with the idea to use the fastest person as an usher, taking everyone across in 21 minutes. But that's just too easy and we can do better. It's best to have the two slowest people cross together. The only way to do this without having a slow person cross twice is to have someone waiting on the other side when they arrive
+                                <br> 1 and 2 cross <b>Time: 2 minutes</b>
+                                <br> 2 comes back <b>Time: 4 minutes</b>
+                                <br> 7 and 10 go across <b>Time: 14 minutes</b>
+                                <br> 1 comes back <b>Time: 15 minutes</b>
+                                <br> 1 and 2 go across <b>Time: 17 minutes</b></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <br>
+                </article>
 
              <article class='post'>
                     <h2><a>Can You Catch The Cheat?</a></h2>
@@ -488,47 +528,6 @@
                         <button id="btn-explanation" data-target="explanationq3" class="btn btn btn-primary" type="button">Explanation</button>
                         <div class="hidden col-xs-12" id="explanationq3">
                             <p class="col-md-12"> There is a macro-cube and then after a layer falls off, a smaller macro-cube. The answer is then the difference in volume between the cube in its first state and the volume of the cube after a layer falls off. The volume of a cube with length n is n^3. The answer then becomes (10^3) - (8^3). A common mistake is to take (10^3) - (9^3).
-                        </div>
-                    </div>
-                    <hr>
-                    <br>
-                </article>
-                <article class='post'>
-                    <h2><a>How Efficiently Can You Cross A Bridge?</a></h2>
-                    <div>
-                        <div class='col-md-8'>
-                            <img src="./images/logic/2016/guinea-pigs-crossing-a-bridge.png" class="img-responsive blogintroimg">
-                            </a>
-                        </div>
-                        <p class="lead">Four people need to cross a rickety bridge at night. Unfortunately, they have only one torch and the bridge is too dangerous to cross without one. The bridge is only strong enough to support two people at a time. Not all people take the same time to cross the bridge. Times for each person: 1 min, 2 mins, 7 mins and 10 mins. What is the shortest time needed for all four of them to cross the bridge?</p>
-                    </div>
-                    <div class="btn-group" data-toggle="buttons-radio">
-                        <button id="btn-hint" data-target="hint1q2" class="btn btn btn-primary" type="button">Hint #1</button>
-                        <div class="hidden col-xs-12" id="hint1q2">
-                            <p class="col-md-12"> Can you send the 2 slowest people together?</p>
-                        </div>
-                    </div>
-                    <div class="btn-group" data-toggle="buttons-radio">
-                        <button id="btn-hint" data-target="hint2q2" class="btn btn btn-primary" type="button">Hint #2</button>
-                        <div class="hidden col-xs-12" id="hint2q2">
-                            <p> What if person 1 waits?</p>
-                        </div>
-                    </div>
-                    <div class="btn-group" data-toggle="buttons-radio">
-                        <button id="btn-answer" data-target="answerq2" class="btn btn btn-primary" type="button">Answer</button>
-                        <div class="hidden col-xs-12" id="answerq2">
-                            <p> <b>17 minutes</b> </p>
-                        </div>
-                    </div>
-                    <div class="btn-group" data-toggle="buttons-radio">
-                        <button id="btn-explanation" data-target="explanationq2" class="btn btn btn-primary" type="button">Explanation</button>
-                        <div class="hidden col-xs-12" id="explanationq2">
-                            <p class="col-md-12"> Most people initially respond with the idea to use the fastest person as an usher, taking everyone across in 21 minutes. But that's just too easy and we can do better. It's best to have the two slowest people cross together. The only way to do this without having a slow person cross twice is to have someone waiting on the other side when they arrive
-                                <br> 1 and 2 cross <b>Time: 2 minutes</b>
-                                <br> 2 comes back <b>Time: 4 minutes</b>
-                                <br> 7 and 10 go across <b>Time: 14 minutes</b>
-                                <br> 1 comes back <b>Time: 15 minutes</b>
-                                <br> 1 and 2 go across <b>Time: 17 minutes</b></p>
                         </div>
                     </div>
                     <hr>
