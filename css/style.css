@@ -176,6 +176,11 @@ ul li {
   	right: 0;  	
 
 }
+
+.logoimg {
+        margin-bottom: 7px;
+}
+
 .logo {
 		
 
@@ -300,6 +305,11 @@ nav a:hover {
 	color:#FFF;
 	font-size:14px;
 	
+}
+
+.footer a {
+margin-left: 	15px;
+
 }
 .form2 {
 	height:auto;

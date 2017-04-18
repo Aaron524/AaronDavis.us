@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://motivationalmondays.com/posts</loc>
+  <loc>http://motivationalmondays.com/blogposts</loc>
   <lastmod>2017-01-30T00:26:36+00:00</lastmod>
   <priority>1.00</priority>
 </url>
@@ -16,18 +16,8 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://motivationalmondays.com/posts/adventures/hand_feeding_tarpon</loc>
-  <lastmod>2017-01-30T00:27:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>http://motivationalmondays.com/posts/blogwriting/how_do_you_define_success</loc>
   <lastmod>2017-01-30T00:27:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://motivationalmondays.com/posts/adventures/jeeping_through_lion_country_safari</loc>
-  <lastmod>2017-01-30T00:27:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>

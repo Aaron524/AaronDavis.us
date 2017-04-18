@@ -83,6 +83,16 @@ img {
     width:100%;
 }
 
+.subscribeblog a {
+ margin-right:  15px;
+}
+
+.subscribeblog li {
+    margin-top:     15px;
+display:    inline; 
+    list-style-type: none;
+}
+
 .bullet {
     text-decoration: underline;
     font-size:  1.24em;
@@ -140,7 +150,7 @@ nav a:hover {
 }
 
 @media (max-width: 565px) {
-    .head a {font-size:   1.3em;}   
+    .head a {font-size:   1.2em;}   
     .logo{font-size : 1.3em;}  
     .logoimg {max-height: 40px;}  
     .box { margin-left:10%; margin-top:     0px;}   
@@ -149,10 +159,20 @@ nav a:hover {
 }
 
 @media (max-width: 321px) {
-    .head a {font-size:   1em;}   
+    .head a {font-size:   .9em;}   
 
 }
 
+/*@media (max-width: 415px) {
+    .topbanner {padding-top: 80px; }   
+
+}
+
+@media (max-width: 321px) {
+    .topbanner {padding-top: 120px; }   
+
+}*/
+   
 
 
 .head li {
@@ -161,7 +181,9 @@ nav a:hover {
     margin: 5px 10px;
 }
 
-
+.logoimg {
+        margin-bottom: 7px;
+}
 .homepage {
     background: url(../images/motivational_monday.jpg);
     background-size: cover;
@@ -259,7 +281,35 @@ nav a:hover {
     }
 }
 
-/** styling for blog page**/
+                                                                                                                                                /** styling for blog page**/
+
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
 
 .blogintrocaption {
     top:0;
@@ -314,8 +364,16 @@ nav a:hover {
 
                                                     /**single post page styling**/
 
+
+.about p {
+        line-height: 1.4;
+    margin-bottom: 4%;
+    font-size: 1.3em;
+}
+
 .singlepagepost img {
     margin-bottom: 3%;
+    max-height: 250px;
 }
 
 .singlepagepost h2 {
@@ -328,6 +386,7 @@ nav a:hover {
     font-size: 20px;
     font-weight: bolder;
 }
+
 
 .singlepagepost p{
     padding:1.5% 0;
