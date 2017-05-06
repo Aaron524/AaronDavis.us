@@ -184,6 +184,10 @@ nav a:hover {
 .logoimg {
         margin-bottom: 7px;
 }
+
+.winner h2 {
+    color: blue !important ;
+}
 .homepage {
     background: url(../images/motivational_monday.jpg);
     background-size: cover;
